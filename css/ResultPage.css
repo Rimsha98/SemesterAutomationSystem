@@ -1,0 +1,130 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.ClassesTableDIV {
+    float: left;
+    width: 85%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+#classesTable {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2vw;
+    width: 90%;
+    font-family: Calibri;
+    font-size: 1.2vw;
+}
+
+.tablecell, .tablecelllg {
+    border-bottom: 0.1vw solid #cccccc;
+    border-top: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+}
+
+#ResultsHead {
+    margin: 0.5vw;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    color: #64C5EB;
+    font-size: 1.7vw;
+    font-family: Calibri;
+    font-weight: 700;
+}
+
+.headcell, .headcellleft, .headcellright {
+    border: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+}
+
+.colorWhite {
+    color: black;
+    font-weight: 600;
+}
+
+#ResultsMsg {
+    font-size: 1.2vw;
+    color: #4B4B4B;
+    text-align: center;
+    margin: 0;
+}
+
+.tablecell {
+    width: 12%;
+    font-size: 1.2vw;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+}
+.tablecellleft {
+    border-left: 0.1vw solid #cccccc;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+}
+.tablecellright {
+    border-right: 0.1vw solid #cccccc;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+}
+
+.tablecelllg {
+    width: 45%;
+    font-size: 1.2vw;
+    padding: 0.5vw;
+}
+
+.backbuttoncell {
+    text-align: center;
+    width: 29%;
+    padding: 0.5vw;
+}
+
+.tablecellbtn {
+    width: 10vw;
+    background-color: #64C5EB;
+    color: #fff;
+    height: 1.8vw;
+    font-size: 1.1vw;
+    font-family: Calibri;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0.2vw;
+}
+    .tablecellbtn:hover {
+        background-color: #1D8AB5;
+    }
+
+.headingtop {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-bottom: 0.1vw solid #a9a9a9;
+    padding: 0;
+}
+
+    .headingtop h1 {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.2vw;
+        font-family: Calibri;
+        font-weight: 600;
+        background-color: #1D8AB5;
+        width: 60%;
+        height: 100%;
+    }
+

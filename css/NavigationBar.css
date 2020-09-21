@@ -1,0 +1,144 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+    overflow: hidden;
+}
+
+.Navbar {
+    background-color: #4b4b4b;
+    height: 100vh;
+    text-align: center;
+}
+
+.navButton {
+    position: fixed;
+    height: 3.5vw;
+    width: 15%;
+    font-size: 1.2vw;
+    color: #fff;
+    background-color: #64C5EB;
+    border: none;
+    cursor: pointer;
+    padding: 1.1vw 4vw 1.1vw 4vw;
+    text-align: left;
+    outline: none;
+}
+
+#ProfileNav {
+    background: url('../appImages/profile.png');
+    background-position: left 1vw center;
+    background-repeat: no-repeat;
+    background-size: 2.7vw 2.7vw;
+}
+
+#TimeTableNav {
+    background: url('../appImages/time.png');
+    background-position: left 1.6vw center;
+    background-repeat: no-repeat;
+    background-size: 1.4vw 1.4vw;
+}
+
+#AttendanceNav {
+    background: url('../appImages/attendance.png');
+    background-position: left 1.3vw center;
+    background-repeat: no-repeat;
+    background-size: 1.9vw 1.9vw;
+}
+
+#ResultsNav {
+    background: url('../appImages/results.png');
+    background-position: left 1.3vw center;
+    background-repeat: no-repeat;
+    background-size: 1.9vw 1.9vw;
+}
+
+#SettingsNav {
+    background: url('../appImages/settings.png');
+    background-position: left 1.4vw center;
+    background-repeat: no-repeat;
+    background-size: 1.7vw 1.7vw;
+}
+
+#LogoutNav {
+    background: url('../appImages/logout.png');
+    background-position: left 1.3vw center;
+    background-repeat: no-repeat;
+    background-size: 1.9vw 1.9vw;
+}
+
+    .navButton:hover, #ProfileNav:hover, #TimeTableNav:hover, #AttendanceNav:hover,
+    #ResultsNav:hover, #SettingsNav:hover, #LogoutNav:hover {
+        background-color: #1D8AB5 !important;
+    }
+
+.ProfilePic {
+    background-color: #4b4b4b;
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+#ProfilePicNav {
+    border-radius: 50%;
+    height: 5.5vw;
+    width: 5.5vw;
+    background-color: #fcfcfc;
+    object-fit: cover;
+    margin-top: 2vw;
+}
+
+.test {
+    margin-top: 3.5vw;
+    height: 0.01vw;
+}
+
+.studentnamenav {
+    width: 10vw;
+    max-width: 10vw;
+    font-size: 1.3vw;
+    font-family: Calibri;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.2vw;
+    color: #fff;
+    font-family: 'Segoe UI';
+    margin-top: 0;
+}
+
+.Border-Line, .Border-Line2 {
+    background-color: #4b4b4b;
+    width: 100%;
+    height: 1%;
+}
+
+.Border-Line {
+    background-color: #4b4b4b;
+    width: 100%;
+    height: 1%;
+}
+
+.Border-Line2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.OutsideDIV {
+    height: 80vh;
+    text-align: left;
+}
+
+.InnerDIV {
+    margin-top: 1.5vw;
+    height: 0.1vw;
+}

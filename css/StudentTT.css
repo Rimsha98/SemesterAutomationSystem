@@ -1,0 +1,147 @@
+﻿body {
+    font-family: Arial;
+}
+
+#ClassSchedule {
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+.headingtop {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-bottom: 0.1vw solid #a9a9a9;
+    padding: 0;
+}
+
+    .headingtop h1 {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.2vw;
+        font-family: Calibri;
+        font-weight: 600;
+        background-color: #1D8AB5;
+        width: 60%;
+        height: 100%;
+    }
+
+.test {
+    margin-top: 10vw;
+    height: 0.1vw;
+    width: 100%;
+}
+
+.coursetable { margin-top: 1vw;}
+
+.head {
+    height: 2.6vw;
+    font-size: 1.3vw;
+    font-family: Calibri;
+    text-transform: uppercase;
+    border: 0.1vw solid #999999;
+    text-align: center;
+    width: 76.2vw;
+    font-weight: 600;
+    padding: 0.5vw;
+}
+
+
+
+.leftheads {
+    width: 6vw;
+    font-size: 1.2vw;
+    font-family: Calibri;
+}
+
+.grey {
+    background-color: #f0f0f0;
+    height: 2vw;
+}
+
+.time {
+    height: 2vw;
+    background-color: #f0f0f0;
+    width: 6vw;
+    font-size: 1.2vw;
+    font-family: Calibri;
+}
+
+.LeftDays {
+    width: 8vw;
+    font-size: 1.2vw;
+    font-family: Calibri;
+}
+
+#CoursesList {
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.CellPadding {
+    padding: 0px 0.5vw 0px 0.5vw;
+}
+
+td, .tcell {
+    border: 0.1vw solid #999999;
+    text-align: center;
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    font-weight: 600;
+    font-family: Calibri;
+
+}
+
+.ListCell, .ListCell2, .ListCell3, .ListCell4 { font-size: 1.2vw; font-family: Calibri;}
+
+.ListCell {
+    width: 8vw;
+    padding: 0px 0.1vw 0px 0.1vw;
+    height: 2vw;
+}
+
+.ListCell2 {
+    width: 32.9vw;
+    text-align: left;
+    padding: 0px 1vw 0px 1vw;
+    height: 2vw;
+}
+
+.ListCell3 {
+    width: 5vw;
+    text-align: center;
+    padding: 0 1vw 0 1vw;
+    height: 2vw;
+}
+
+.ListCell4 {
+    width: 30vw;
+    text-align: left;
+    padding: 0px 1vw 0px 1vw;
+    height: 2vw;
+}
+
+.tableheads {
+    width: 8vw;
+    height: 1.5vw;
+}
+
+h1 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.container {
+    float: left;
+    width: 85%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

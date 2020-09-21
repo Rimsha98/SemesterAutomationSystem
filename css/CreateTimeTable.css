@@ -1,0 +1,155 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri;
+    overflow: hidden;
+}
+
+.TableTT{
+    width: 90%;
+    font-family: Calibri;
+    font-size: 1.2vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.backcellleft {
+    border-left: 0.1vw solid #cccccc;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.1vw solid #cccccc;
+}
+
+.backcell { border-bottom: 0.1vw solid #cccccc; }
+
+.backcellright {
+    border-right: 0.1vw solid #cccccc;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.1vw solid #cccccc;
+}
+
+.tablehead { text-align: left; font-weight: 600; font-size: 1.2vw; font-family: Calibri; }
+.tablelink {
+    color: #1D8AB5;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.tablelink:hover { color: #64C5EB; }
+.cellmid, .cellright {
+    padding: 0 0.2vw 0 0.2vw;
+    width: 9%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.1vw solid #cccccc;
+}
+
+.celllg {
+    padding: 0 0.2vw 0 0.2vw;
+    width: 21%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.1vw solid #cccccc;
+}
+
+.cellright {
+    border-right: 0.1vw solid #cccccc;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-bottom: 0.1vw solid #cccccc;
+}
+
+.tablerow {
+    border: 0.1vw solid #cccccc;
+    font-weight: 600;
+    background-color: #D1E8F1;
+    border-bottom: 0.1vw solid #cccccc;
+}
+
+.Selection {
+    margin: 0 auto;
+    width: 80%;
+    height: 2.6vw;
+    text-align: center;
+    margin-top: 7%;
+    padding: 0;
+    border-bottom: 0.1vw solid #a9a9a9;
+}
+
+#temp td { 
+  
+}
+
+.SelectionCSS{
+    border: none;
+    background-color: #64C5EB;
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+    width: 15vw;
+    height: 2.5vw;
+    cursor: pointer;
+    outline: none;
+}
+.SelectionCSS:hover, .FormButtons:hover {
+    background-color: #1D8AB5 !important;
+}
+
+.test3 {
+    border: 0.1vw solid white;
+    float: left;
+    width: 15.5vw;
+}
+
+#TeacherCoursesEvening { 
+    margin-bottom: 7%;
+}
+
+.FormTextBox {
+    width: 95%;
+    height: 2.2vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-size: 1.3vw;
+    font-family: Calibri;
+    margin: 0;
+}
+.trrow {
+    padding: 0;
+    border: 0.1vw solid #cccccc;
+}
+.FormDropDown {
+    width: 95%;
+    height: 2.2vw;
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
+    font-size: 1.3vw;
+    font-family: Calibri;
+    cursor: pointer;
+}
+.FormLabel {
+    font-family: Calibri;
+    font-size: 1.3vw;
+}
+
+.FormTextBox, .FormDropDown, .FormErrors, .FormButtons { margin-left: 2%;}
+.FormErrors { font-size: 1.1vw; }
+
+.FormButtons {
+    width: 95%;
+    height: 2.2vw;
+    font-size: 1.3vw;
+    font-family: Calibri;
+    font-weight: 600;
+    color: #fff;
+    background-color: #64C5EB;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

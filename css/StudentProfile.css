@@ -1,0 +1,127 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#ProfilePic {
+    border-radius: 50%;
+    height: 18vw;
+    width: 18vw;
+    background-color: #fcfcfc;
+    object-fit: cover;
+    border: 0.3vw solid #64C5EB;
+    margin-top: 7%;
+}
+
+.Selection {
+    margin: 0 auto;
+    width: 53%;
+    height: 2.6vw;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.SelectionCSS, #BtnLogout, #AccSetting {
+    border: none;
+    background-color: #64C5EB;
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-align: center;
+    width: 15vw;
+    height: 2.5vw;
+    cursor: pointer;
+    position: fixed;
+    outline: none;
+}
+
+#BtnLogout, #AccSetting {
+    position: relative;
+}
+
+.SelectionCSS:hover {
+    background-color: #1D8AB5 !important;
+}
+
+.test2 {
+    border: 0.1vw solid white;
+    float: left;
+    width: 15.5vw;
+}
+
+.useremail p {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.boldtext {
+    font-weight: 600;
+}
+
+.BasicData {
+    width: 100%;
+    text-align: center;
+    border: 0.1vw solid yellow;
+   
+}
+
+.content {
+    float: left;
+    width: 85%;
+    height: 100vh;
+}
+
+#OverviewDIV {
+    text-align: center;
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    border-top: 0.1vw solid #A9A9A9;
+}
+
+#welcomename {
+    color: #4B4B4B;
+    font-size: 1.2vw;
+}
+
+.useremail {
+    border-left: 0.13vw solid #64C5EB;
+    border-right: 0.13vw solid #64C5EB;
+    width: auto;
+    display: table;
+    padding: 0vw 1vw 0vw 1vw;
+    margin: 0 auto;
+}
+
+.useremail p { color: #4B4B4B; font-size: 1.2vw;}
+
+#GeneralInfoDIV {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    border-top: 0.1vw solid #A9A9A9;
+}
+
+#GeneralInfoDIV h1{
+    font-size: 1.5vw;
+    color: #64C5EB;
+    text-align: left;
+    margin-top: 2vw;
+}
+
+table {
+   width: 100%;
+}
+
+td {
+    padding: 0.4vw;
+    font-size: 1.2vw;
+    text-align: left;
+}

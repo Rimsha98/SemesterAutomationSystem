@@ -1,0 +1,17 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#ProfilePic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: #fcfcfc;
+    object-fit: cover;
+}

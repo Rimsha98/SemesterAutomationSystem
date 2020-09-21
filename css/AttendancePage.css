@@ -1,0 +1,142 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#classesTable {
+    margin: 0 auto;
+    margin-top: 2vw;
+    text-align: center;
+    width: 90%;
+    font-size: 1.2vw;
+    font-family: Calibri;
+}
+
+.head {
+    margin: 0.5vw;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    color: #64C5EB;
+    font-size: 1.7vw;
+    font-family: Calibri;
+    font-weight: 700;
+}
+
+.headingtop {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-bottom: 0.1vw solid #a9a9a9;
+    padding: 0;
+}
+
+    .headingtop h1 {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.2vw;
+        font-family: Calibri;
+        font-weight: 600;
+        background-color: #1D8AB5;
+        width: 60%;
+        height: 100%;
+    }
+
+.parah {
+    font-family: Calibri;
+    font-size: 1.3vw;
+    text-align: center;
+    color: #4b4b4b;
+
+}
+
+.cell, .cellclass {
+    border-top: 0.1vw solid #cccccc;
+    border-bottom: 0.1vw solid #cccccc;
+    background-color: #D1E8F1;
+    color: black;
+    font-weight: 600;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.cellclass {
+    border-left: 0.1vw solid #cccccc;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.cell, .cell5css, .cell6css {
+    width: 10%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.backcell1 {
+    border-left: 0.1vw solid #cccccc;
+    border-bottom: 0.1vw solid #cccccc;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.backcell {
+    border-bottom: 0.1vw solid #cccccc;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.cellclass { width: 8%; }
+.cell5css, .cell6css { border: none; }
+.cellbig {
+    width: 32%;
+    border: 0.1vw solid #cccccc;
+    border-left: none;
+    background-color: #D1E8F1;
+    color: black;
+    font-weight: 600;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.cellright {
+    border-right: 0.1vw solid #cccccc;
+    border-bottom: 0.1vw solid #cccccc;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-right: 0.3vw;
+}
+.cellbutton {
+    border: none;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.tablerow {
+  border: 0.1vw solid #cccccc;
+}
+
+.viewbutton, .markatt {
+    background-color: #64C5EB;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 1.8vw;
+    float: left;
+    margin: 0.2vw;
+    outline: none;
+    width: 10vw;
+    font-family: Calibri;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.markatt { background-color: #4b4b4b; }
+    .markatt:hover { background-color: #6b6b6b; }
+    .viewbutton:hover {
+        background-color: #1D8AB5;
+    }
+.viewbutton { margin-left: 1vw;}
+

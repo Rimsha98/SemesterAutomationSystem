@@ -1,0 +1,254 @@
+﻿* { box-sizing: border-box; }
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI';
+    overflow: hidden;
+}
+
+/* ------------------------ Screen Base --------------------- */
+.Left-Panel {
+    background-image: url('../appImages/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #64C5EB;
+    float: left;
+    overflow: hidden;
+    width: 70%;
+    height: 100vh;
+    position: relative;
+}
+.Right-Panel {
+    background-color: #FFFFFF;
+    float: left;
+    overflow: hidden;
+    width: 30%;
+    height: 100vh;
+}
+.overlay {
+    background-color: rgba(100,197,235,0.8);
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.Border-Line, .Border-Line2 {
+    background-color: #4B4B4B;
+    width: 100%;
+    height: 1%;
+}
+.Border-Line2 {
+    position: absolute;
+    bottom: 0;
+}
+.Grid-Container {
+    height: 27%;
+    display: grid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 22%;
+    margin: auto;
+    max-width: 32vw;
+    min-width: 32vw;
+    font-size: 1vw;
+    grid-template-areas: 'Logo LeftText';
+}
+h1 {
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 600;
+    color: white;
+}
+p {
+    font-size: 1.2vw;
+    color: white;
+    margin: 0.5vw 0 0.5vw 0;
+}
+
+#UOKhead { font-size: 1.7vw; }
+#UOKtext {
+    margin-top: -4%;
+    font-size: 2.65vw;
+}
+#ErrorMsg{
+    color: #4B4B4B;
+    font-size: 1.05vw;
+    position: fixed;
+}
+.Logo { grid-area: Logo; text-align: right; vertical-align: middle;}
+.LeftText {
+    grid-area: LeftText;
+    text-align: center;
+    margin: 0 auto;
+    width: 22vw;
+    margin-left: 8%;
+}
+.line {
+    width: 100%;
+    border-bottom: 0.15vw solid #fff;
+    margin: 0;
+}
+
+/* ------------------------ Login Form --------------------- */
+.Middle-Panel {
+    position: absolute;
+    background-color: #FCFCFC;
+    border: 0.1vw solid #A9A9A9;
+    width: 25vw;
+    left: 57.5%;
+    top: 19%;
+    height: 32vw;
+}
+.Login-Container {
+    height: 30vw;
+    display: grid;
+    position: absolute;
+    top: 2.5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 21vw;
+    min-width: 21vw;
+    grid-template-areas: 'Heading' 'Textbox1' 'Textbox2' 'dropdown' 'FPlabel' 'button';
+}
+.heading { grid-area: Heading;   margin: 0; padding: 0; }
+.username {
+    grid-area: Textbox1;
+
+}
+.password {
+    grid-area: Textbox2;
+
+}
+.dropdownfield {
+    grid-area: dropdown;
+}
+.forgotpass {
+    grid-area: FPlabel;
+
+}
+.loginbutton { grid-area: button;  }
+.Custom-TextBox:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.Custom-TextBox { background-color: #fff; }
+.heading h1 { color: #4B4B4B; font-size: 2vw; text-align: center; margin-top: 8%; }
+.col2 {
+    width: 14%;
+    float: left;
+    height: 3vw;
+    padding: 0.5vw;
+    position: relative;
+    border: 0.1vw solid #A9A9A9;
+    border-left: none;
+    background-color: #fff;
+    margin: 0;
+}
+
+.col2 img {
+    width: 1.9vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+#PasswordIco { cursor: pointer; width: 1.5vw; }
+.col1 {
+    float: left;
+    border: 0.1vw solid #A9A9A9;
+    height: 3vw;
+    width: 86%;
+    margin: 0;
+    background-color: #fff;
+    border-right: none;
+}
+    
+.col1 input[type=text], #Txtpassword {
+    width: 18vw;
+    height: 2.8vw;
+    max-height: 2.8vw;
+    border: none;
+    background-color: #fff;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 1.2vw;
+    color: #4B4B4B;
+    padding-left: 0.8vw;
+    margin: 0;
+    position: fixed;
+}
+
+.container {
+    height: 3vw;
+    background-color: #fff;
+    width: 100%;
+    border: 0.1vw solid #A9A9A9;
+}
+
+#DDSelectUser {
+    height: 2vw;
+    font-size: 1.2vw;
+    color: #4B4B4B;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 0.8vw;
+    background-color: #fff;
+    margin-top: 0.4vw;
+    position: fixed;
+    width: 20%;
+}
+
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background: url('../appImages/arrow.png');
+    background-repeat: no-repeat;
+    background-size: 1.2vw 1vw;
+    background-position: right center;
+}
+
+#BtnLogin, .formbtn {
+    width: 100%;
+    height: 3vw;
+    background-color: #64C5EB;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+#FP {
+    float: right;
+    color: #4B4B4B;
+    font-size: 1.1vw;
+    margin-top: -1.5vw;
+    margin-bottom: 3%;
+}
+
+.formbtn { position: fixed; width: 21%; margin-bottom: 3vw; }
+#FP:hover { color: #1D8AB5; }
+
+#BtnLogin:hover, .formbtn:hover {
+    background-color: #1D8AB5;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0vw 100vw #fff inset;
+}

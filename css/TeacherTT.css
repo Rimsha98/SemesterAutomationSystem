@@ -1,0 +1,78 @@
+﻿.CTable {
+    margin: 0 auto;
+    font-family: Calibri;
+    font-size: 1.2vw;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+h2 { font-size: 1.6vw; font-family: Calibri;}
+
+.tablerow {
+    border: 0.1vw solid #cccccc;
+}
+.tcell, .thcell {
+    width: 8vw;
+    height: 2vw;
+    text-align: center;
+    margin: 0;
+    padding: 0px 0.2vw 0px 0.2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.thcell {
+    background-color: #D1E8F1;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+#listc {
+    margin: 0.5vw;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #64C5EB;
+    font-size: 1.7vw;
+    font-family: Calibri;
+    font-weight: 700;
+}
+
+
+h1, #nocourses {
+    font-family: Calibri;
+    font-size: 2vw;
+    text-align: center;
+    color: #4B4B4B;
+}
+#nocourses { text-transform:none; font-size: 1.2vw; color: red; }
+
+.test {
+    margin-top: 10vw;
+    height: 0.1vw;
+    width: 100%;
+}
+
+
+.headingtop {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-bottom: 0.1vw solid #a9a9a9;
+    padding: 0;
+}
+
+    .headingtop h1 {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.2vw;
+        font-family: Calibri;
+        font-weight: 600;
+        background-color: #1D8AB5;
+        width: 60%;
+        height: 100%;
+    }

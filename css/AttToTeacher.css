@@ -1,0 +1,81 @@
+﻿p { margin: 0; padding: 0; }
+
+#AttTView {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3vw;
+    font-size: 1.2vw;
+    border: 0.1vw solid #cccccc;
+    font-family: Calibri;
+}
+
+.cellsmall {
+    background-color: #D1E8F1;
+    font-weight: 600;
+    color: black;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+    width: 5%;
+}
+
+.cellattendance {
+    background-color: #D1E8F1;
+    font-weight: 600;
+    color: black;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+    width: 5%;
+    word-break: break-all;
+    font-size: 1.2vw;
+}
+
+.cellmedium {
+    background-color: #D1E8F1;
+    font-weight: 600;
+    color: black;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+    width: 8%;
+}
+
+.marked { 
+    color: #red;
+    
+}
+
+.cellbig {
+    background-color: #D1E8F1;
+    font-weight: 600;
+    color: black;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+    width: 10%;
+}
+
+.backcell {
+    padding: 0.5vw;
+}
+
+.cellp {
+    background-color: #D1E8F1;
+    font-weight: 600;
+    color: black;
+    border-bottom: 0.1vw solid #cccccc;
+    padding: 0.5vw;
+    width: 5%;
+}
+
+#Back {
+    width: 10vw;
+    height: 2.5vw;
+    margin-top: 2vw;
+    background-color: #64C5EB;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    font-size: 1.2vw;
+}
+
+#Back:hover { background-color: #1D8AB5; }
